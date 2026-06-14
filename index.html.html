@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luong Manh Truong | Embedded Systems Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;background:#08111f;color:#e2e8f0;scroll-behavior:smooth}
+nav{position:fixed;top:0;width:100%;background:rgba(8,17,31,.9);backdrop-filter:blur(12px);padding:18px 8%;display:flex;justify-content:space-between;z-index:1000}
+nav a{color:#fff;text-decoration:none;margin-left:20px}
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(rgba(8,17,31,.7),rgba(8,17,31,.9)),
+url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+}
+.hero h1{font-size:4rem}
+.hero p{max-width:700px;color:#cbd5e1}
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:14px 30px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:30px;
+}
+section{padding:100px 10%}
+h2{font-size:2.3rem;margin-bottom:30px;color:#60a5fa}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:25px}
+.card{
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(12px);
+padding:25px;
+border-radius:20px;
+border:1px solid rgba(255,255,255,.1);
+transition:.3s;
+}
+.card:hover{transform:translateY(-8px)}
+.skill{margin:15px 0}
+.bar{height:10px;background:#1e293b;border-radius:10px;overflow:hidden}
+.fill{height:100%;background:#3b82f6}
+.timeline{border-left:3px solid #3b82f6;padding-left:25px}
+.timeline div{margin-bottom:25px}
+.contact a{color:#60a5fa;text-decoration:none}
+footer{text-align:center;padding:30px;background:#0f172a}
+.small{color:#94a3b8}
+</style>
+</head>
+<body>
+
+<nav>
+<div><b>LMT Portfolio</b></div>
+<div>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#roadmap">Roadmap</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<h1>LƯƠNG MẠNH TRƯỜNG</h1>
+<h3>Embedded Systems & IoT Student</h3>
+<p>Building practical engineering solutions through Embedded Systems, Robotics, IoT and continuous learning.</p>
+<a class="btn" href="#projects">Explore My Work</a>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="card">
+<p>I am a first-year Embedded Systems and IoT student at Da Nang University of Technology. My goal is to become an Embedded Systems Engineer by combining strong technical knowledge with real-world project experience.</p>
+<br>
+<p><b>Location:</b> Da Nang, Vietnam</p>
+<p><b>Interests:</b> Robotics, IoT, Embedded Programming, Automation</p>
+<p><b>Hobbies:</b> Badminton, Football, Chess, Traveling</p>
+</div>
+</section>
+
+<section id="projects">
+<h2>Engineering Projects</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>🤖 Autonomous Wall-Following Robot</h3>
+<p class="small">Hardware & Firmware Developer</p>
+<br>
+<p>Designed and programmed an autonomous robot capable of detecting walls and navigating corners using ultrasonic sensors.</p>
+<br>
+<p><b>Stack:</b> Arduino Uno, C++, HC-SR04, L298N</p>
+</div>
+
+<div class="card">
+<h3>🚀 Water Rocket Project</h3>
+<p class="small">Project Team Member</p>
+<br>
+<p>Designed and tested a water-propelled rocket while applying engineering principles including pressure systems and aerodynamics.</p>
+<br>
+<p><b>Focus:</b> Teamwork, Prototype Development, Testing</p>
+</div>
+
+<div class="card">
+<h3>💡 Future IoT Projects</h3>
+<p class="small">Currently Learning</p>
+<br>
+<p>ESP32, Sensors, Wireless Communication, Smart Home Applications and IoT System Design.</p>
+</div>
+
+</div>
+</section>
+
+<section id="skills">
+<h2>Technical Skills</h2>
+
+<div class="skill">
+<p>C / C++</p>
+<div class="bar"><div class="fill" style="width:75%"></div></div>
+</div>
+
+<div class="skill">
+<p>Arduino Development</p>
+<div class="bar"><div class="fill" style="width:80%"></div></div>
+</div>
+
+<div class="skill">
+<p>Embedded Systems Fundamentals</p>
+<div class="bar"><div class="fill" style="width:70%"></div></div>
+</div>
+
+<div class="skill">
+<p>English Communication</p>
+<div class="bar"><div class="fill" style="width:55%"></div></div>
+</div>
+
+<div class="skill">
+<p>Teamwork & Communication</p>
+<div class="bar"><div class="fill" style="width:85%"></div></div>
+</div>
+
+</section>
+
+<section id="roadmap">
+<h2>Career Roadmap</h2>
+
+<div class="timeline">
+
+<div>
+<h3>2026</h3>
+<p>Strengthen C/C++, Embedded Programming and English communication.</p>
+</div>
+
+<div>
+<h3>2027</h3>
+<p>Build advanced IoT projects using ESP32 and wireless communication technologies.</p>
+</div>
+
+<div>
+<h3>2028</h3>
+<p>Complete internships and contribute to larger engineering projects.</p>
+</div>
+
+<div>
+<h3>Future Goal</h3>
+<p>Become an Embedded Systems Engineer specializing in IoT and Intelligent Devices.</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card contact">
+<p>📧 Email: truongqnt123@gmail.com</p>
+<p>📱 Phone: 0707919292</p>
+<p>📘 Facebook: Lương Mạnh Trường</p>
+<p>💻 GitHub: Add your GitHub profile here</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Luong Manh Truong | Embedded Systems Portfolio</p>
+</footer>
+
+</body>
+</html>
